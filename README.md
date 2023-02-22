@@ -18,3 +18,6 @@ I wrote this in a quick day so it might look unfinished, But the why is that it 
 - [x] Build system.prop
 - [x] Use of GitHub Actions to automate the update/commit/push/release process on schedule
 
+---
+
+**Thanks to** [0x11DFE](https://github.com/Pixel-Props/build.prop)
