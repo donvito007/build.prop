@@ -34,8 +34,8 @@ module_prop=""
 
 # Build our system.prop
 to_system_prop "##
-# Beautiful Pixel Props https://t.me/PixelProps
-# By @T3SL4
+# Beautiful Pixel Props https://t.me/akaritsu
+# By @AkariOficial
 ##
 
 ###
@@ -255,10 +255,10 @@ add_prop_as_ini to_module_prop "id" "${device_code_name^}_Prop"
 add_prop_as_ini to_module_prop "name" "$device_name (${device_code_name^^}) Prop"
 add_prop_as_ini to_module_prop "version" "$device_build_security_patch"
 add_prop_as_ini to_module_prop "versionCode" "$(echo "$device_build_security_patch" | tr -d - | cut -c3-)"
-add_prop_as_ini to_module_prop "author" "Tesla"
+add_prop_as_ini to_module_prop "author" "Akari"
 add_prop_as_ini to_module_prop "description" "Spoof your device to ${device_code_name^^} pixel prop ($(date --date="$device_build_security_patch" +%b) $(date --date="$device_build_security_patch" +%Y))"
-add_prop_as_ini to_module_prop "donate" "https://wannabe1337.page.link/4xK6"
-add_prop_as_ini to_module_prop "support" "https://t.me/PixelProps"
+add_prop_as_ini to_module_prop "donate" ""
+add_prop_as_ini to_module_prop "support" "https://t.me/akaritsu"
 
 # Save the module.prop file
 echo -n "${module_prop::-1}" >"$dir/module.prop"
