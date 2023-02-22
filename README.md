@@ -16,7 +16,5 @@ I wrote this in a quick day so it might look unfinished, But the why is that it 
 - [x] Extract factory images
 - [x] Extract OTA images
 - [x] Build system.prop
-- [ ] Use of GitHub Actions to automate the update/commit/push/release process on schedule
-- [ ] ~~Download latest Factory image from [Google Android Images](https://developers.google.com/android/images).~~
+- [x] Use of GitHub Actions to automate the update/commit/push/release process on schedule
 
-You can also help me finish those todo's by forking this repository, modifying the script and pushing a pull request.
