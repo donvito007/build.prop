@@ -1,4 +1,4 @@
-name: "gh-action-on-schedule"
+name: Build-Prop Pixel
 
 on:
   schedule:
