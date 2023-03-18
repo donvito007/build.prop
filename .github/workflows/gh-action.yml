@@ -1,4 +1,4 @@
-name: "gh-action"
+name: Build-Prop Pixel
 
 on:
   workflow_dispatch:
