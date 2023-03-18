@@ -1,4 +1,4 @@
-name: Build-Prop Pixel
+name: Build-Prop Pixel with Cron
 
 on:
   schedule:
